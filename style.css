@@ -1,0 +1,257 @@
+        body {
+            background-color: rgba(128, 128, 128, 0.692);
+            color: black;
+            text-align: center;
+            font-size: medium;
+            font-family: sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        /* header */
+        
+        .header {
+            background-color: beige;
+        }
+        
+        #box1,
+        #box2,
+        #box3 {
+            background-color: rgb(236, 214, 181);
+            margin: 1rem;
+            padding: 2rem;
+            width: calc(100% - 2rem);
+            float: left;
+            min-height: 150px;
+        }
+        
+        #box1,
+        #box3 {
+            border-radius: 1rem;
+        }
+        
+        #box2 {
+            padding: 0px;
+            background-color: transparent;
+        }
+        
+        #box2 .circle {
+            background-color: snow;
+            border-radius: 50%;
+            margin: 0 auto;
+            height: 150px;
+            width: 150px;
+            line-height: 150px;
+        }
+        
+        @media all and (min-width: 800px) {
+            #box1,
+            #box2,
+            #box3 {
+                width: calc(33.33% - 2rem);
+            }
+        }
+        /* sidebar */
+        
+        .sidebar {
+            background-color: beige;
+            width: 100%;
+            height: 68rem;
+            margin-top: 1rem;
+            float: left;
+        }
+        
+        .folat-child {
+            float: left;
+            padding: 15px;
+            width: 50%;
+        }
+        
+        .radius {
+            background-color: burlywood;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 15px;
+        }
+        
+        #side-box-top,
+        #side-box-bottom,
+        #banner-box {
+            margin: 1rem;
+            background-color: tan;
+            height: 18rem;
+            border-radius: 1rem;
+        }
+        
+        #banner-box {
+            background-color: rgb(236, 214, 181);
+        }
+        
+        @media all and (min-width: 800px) {
+            .sidebar {
+                width: calc(25% - 1rem);
+            }
+        }
+        /* center-content */
+        
+        .content {
+            background-color: beige;
+            float: left;
+            height: 50%;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        #t-one,
+        #t-two,
+        #t-three {
+            float: left;
+            margin: 1rem;
+            background-color: burlywood;
+            width: calc(100% - 2rem);
+            height: 17rem;
+            border-radius: 1rem;
+        }
+        
+        @media all and (min-width: 800px) {
+            .content {
+                width: calc(75% - 1rem);
+                margin: 1rem;
+            }
+            #t-one,
+            #t-two,
+            #t-three {
+                width: calc(33.33% - 2rem);
+            }
+            #reg {
+                width: 18rem;
+            }
+        }
+        /* center-box*/
+        
+        .point #just-box {
+            background-color: snow;
+            margin: 1rem;
+            height: 8rem;
+            border-radius: 1rem;
+        }
+        /* 3 rows */
+        
+        .bottom-boxes {
+            background-color: beige;
+        }
+        
+        .one-row {
+            background-color: transparent;
+            height: 11rem;
+            width: calc(50% - 2rem);
+            float: left;
+            margin: 1rem;
+        }
+        
+        .regtangle-one,
+        .regtangle-two,
+        .regtangle-three {
+            background-color: rgb(236, 214, 181);
+            height: 10rem;
+            border-radius: 1rem;
+        }
+        
+        .radius-one,
+        .radius-two,
+        .radius-three {
+            background-color: burlywood;
+            border-radius: 50%;
+            height: 130px;
+            width: 130px;
+            margin: 0 auto;
+        }
+        
+        .regtangle-two {
+            background-color: rgb(236, 214, 181);
+        }
+        
+        .radius-two {
+            background-color: burlywood;
+        }
+        
+        .regtangle-three {
+            background-color: rgb(236, 214, 181);
+        }
+        
+        .radius-three {
+            background-color: burlywood;
+        }
+        
+        @media all and (min-width: 800px) {
+            .radius-one,
+            .radius-two,
+            .radius-three {
+                height: 150px;
+                width: 150px;
+            }
+        }
+        /* footer */
+        
+        .footer-box {
+            background-color: beige;
+            width: 100%;
+            height: 100%;
+            float: left;
+            margin-bottom: 1rem;
+        }
+        
+        #reg {
+            background-color: burlywood;
+            width: calc(100% - 2rem);
+            margin: 1rem;
+            height: 10rem;
+            float: left;
+        }
+        
+        .circle-box {
+            background-color: transparent;
+            height: 11rem;
+            width: 100%;
+            float: left;
+        }
+        
+        #circle-one,
+        #circle-two,
+        #circle-three,
+        #circle-four {
+            background-color: wheat;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        
+        @media all and (min-width: 800px) {
+            .footer-box {
+                width: 100%;
+                height: 190px;
+            }
+            .circle-box {
+                width: calc(18% - 2rem);
+                margin: 1rem;
+            }
+            #reg {
+                width: 22%;
+                margin: 1rem;
+                border-radius: 1rem;
+            }
+        }
